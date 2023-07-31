@@ -1,6 +1,6 @@
 {
   "default" : {
-    "feature_set_token" : "3caac78db62a7612c34511e8af72220d5ebe6b77",
+    "feature_set_token" : "0793a011e583f19046ac1c9d338f08af4274c1f3",
     "config" : {
       "2fa_temporary_password_enabled" : {
         "value" : false
@@ -899,6 +899,9 @@
       "conversation_controls_change_tooltip_enabled" : {
         "value" : true
       },
+      "conversation_controls_my_subscribers_enabled" : {
+        "value" : false
+      },
       "conversation_controls_persistence_enabled" : {
         "value" : true
       },
@@ -940,6 +943,9 @@
       },
       "creator_monetization_dashboard_enabled" : {
         "value" : true
+      },
+      "creator_monetization_dashboard_help_button_enabled" : {
+        "value" : false
       },
       "creator_monetization_profile_pass_enabled" : {
         "value" : false
@@ -1451,12 +1457,6 @@
       "hashflags_settings_enabled" : {
         "value" : true
       },
-      "hidden_profile_likes_enabled" : {
-        "value" : true
-      },
-      "hidden_profile_likes_settings_enabled" : {
-        "value" : true
-      },
       "highlights_tweets_action_enabled" : {
         "value" : true
       },
@@ -1557,10 +1557,10 @@
         "value" : false
       },
       "home_timeline_non_sticky_tab_on_new_session_duration_minutes" : {
-        "value" : 0.0
+        "value" : 720.0
       },
       "home_timeline_non_sticky_tab_on_new_session_enabled" : {
-        "value" : false
+        "value" : true
       },
       "home_timeline_performance_zipkin_pct_metadata_enabled" : {
         "value" : false
@@ -3273,10 +3273,7 @@
         "value" : true
       },
       "responsive_web_delegate_enabled" : {
-        "value" : true
-      },
-      "twitter_delegate_enabled" : {
-        "value" : true
+        "value" : false
       },
       "restricted_client_shutdown_api_allow_list" : {
         "value" : [ ]
@@ -3333,7 +3330,7 @@
         "value" : true
       },
       "search_features_advanced_search_enabled" : {
-        "value" : true
+        "value" : false
       },
       "search_features_empty_search_results_search_settings_link" : {
         "value" : "https:\/\/mobile.twitter.com\/settings\/search"
@@ -3540,7 +3537,7 @@
         "value" : true
       },
       "subscriptions_feature_1012" : {
-        "value" : false
+        "value" : true
       },
       "subscriptions_feature_1014" : {
         "value" : true
@@ -3549,7 +3546,7 @@
         "value" : false
       },
       "subscriptions_feature_can_hide_checkmark" : {
-        "value" : true
+        "value" : false
       },
       "subscriptions_feature_labs_1001" : {
         "value" : true
@@ -3570,7 +3567,7 @@
         "value" : false
       },
       "subscriptions_is_blue_verified_hide_checkmark_enabled" : {
-        "value" : true
+        "value" : false
       },
       "subscriptions_marketing_page_rearragement" : {
         "value" : "control"
@@ -3879,6 +3876,9 @@
         "value" : true
       },
       "tweetypie_unmention_optimization_enabled" : {
+        "value" : true
+      },
+      "twitter_delegate_settings_enabled" : {
         "value" : true
       },
       "typeahead_empty_topic_prompt_enabled" : {
@@ -4509,7 +4509,7 @@
   "requires_restart" : [ ],
   "supports_accessibility" : [ ],
   "versions" : {
-    "feature_switches" : "fa30fd28118907079ca4c9ab927ce6d3bae70e19",
-    "experiments" : "fa30fd28118907079ca4c9ab927ce6d3bae70e19"
+    "feature_switches" : "f2c4333f8a67c5927a4006e7c13a27acb3c13906",
+    "experiments" : "f2c4333f8a67c5927a4006e7c13a27acb3c13906"
   }
 }
