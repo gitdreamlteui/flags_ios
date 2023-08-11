@@ -1,6 +1,6 @@
 {
   "default" : {
-    "feature_set_token" : "0793a011e583f19046ac1c9d338f08af4274c1f3",
+    "feature_set_token" : "3728b8c0193c5622610af3506cb78a5afec5d3c9",
     "config" : {
       "2fa_temporary_password_enabled" : {
         "value" : false
@@ -900,7 +900,7 @@
         "value" : true
       },
       "conversation_controls_my_subscribers_enabled" : {
-        "value" : false
+        "value" : true
       },
       "conversation_controls_persistence_enabled" : {
         "value" : true
@@ -999,7 +999,7 @@
         "value" : true
       },
       "creator_subscriptions_subscription_count_enabled" : {
-        "value" : false
+        "value" : true
       },
       "creator_subscriptions_tweet_preview_enabled" : {
         "value" : true
@@ -1161,6 +1161,9 @@
         "value" : true
       },
       "dm_secret_conversations_for_graduated_access_enabled" : {
+        "value" : false
+      },
+      "dm_settings_info_page_device_list_enabled" : {
         "value" : false
       },
       "dm_share_sheet_send_individually_enabled" : {
@@ -2474,6 +2477,9 @@
       "ios_ui_summary_card_dominant_color_background_enabled" : {
         "value" : true
       },
+      "ios_ui_transparent_status_bar" : {
+        "value" : true
+      },
       "ios_ui_wide_bar_item_inset" : {
         "value" : 0.0
       },
@@ -2817,7 +2823,7 @@
         "value" : 3000.0
       },
       "media_download_video_enabled" : {
-        "value" : false
+        "value" : true
       },
       "media_upload_all_performance_logging_enabled" : {
         "value" : false
@@ -3251,6 +3257,9 @@
       "recent_search_reranking_enabled" : {
         "value" : false
       },
+      "recruiting_jobs_list_consumption_enabled" : {
+        "value" : false
+      },
       "rehire_share_update_url_enabled" : {
         "value" : true
       },
@@ -3546,7 +3555,7 @@
         "value" : false
       },
       "subscriptions_feature_can_hide_checkmark" : {
-        "value" : false
+        "value" : true
       },
       "subscriptions_feature_labs_1001" : {
         "value" : true
@@ -3567,7 +3576,7 @@
         "value" : false
       },
       "subscriptions_is_blue_verified_hide_checkmark_enabled" : {
-        "value" : false
+        "value" : true
       },
       "subscriptions_marketing_page_rearragement" : {
         "value" : "control"
@@ -4509,7 +4518,7 @@
   "requires_restart" : [ ],
   "supports_accessibility" : [ ],
   "versions" : {
-    "feature_switches" : "f2c4333f8a67c5927a4006e7c13a27acb3c13906",
-    "experiments" : "f2c4333f8a67c5927a4006e7c13a27acb3c13906"
+    "feature_switches" : "8407114c4fb81a0923ddcf91d8f317124aad8092",
+    "experiments" : "8407114c4fb81a0923ddcf91d8f317124aad8092"
   }
 }
