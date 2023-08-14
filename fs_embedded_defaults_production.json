@@ -1,6 +1,6 @@
 {
   "default" : {
-    "feature_set_token" : "3728b8c0193c5622610af3506cb78a5afec5d3c9",
+    "feature_set_token" : "9dc10fae2ed13cd1f2efd6ce930211d0e565665f",
     "config" : {
       "2fa_temporary_password_enabled" : {
         "value" : false
@@ -95,6 +95,12 @@
       "author_moderated_replies_urt_container_enabled" : {
         "value" : false
       },
+      "av_chat_dms_call_menu_enabled" : {
+        "value" : false
+      },
+      "av_chat_notification_routing_enabled" : {
+        "value" : false
+      },
       "background_fetch_enabled" : {
         "value" : false
       },
@@ -106,9 +112,6 @@
       },
       "beta_bug_button_enabled" : {
         "value" : false
-      },
-      "birdwatch_community_notes_url_path_enabled" : {
-        "value" : true
       },
       "birdwatch_consumption_enabled" : {
         "value" : false
@@ -3473,6 +3476,9 @@
       "ssp_ads_google_dsp_client_context_enabled" : {
         "value" : false
       },
+      "ssp_ads_google_native_ad_enabled" : {
+        "value" : false
+      },
       "ssp_ads_rtb_image_ad_item_enabled" : {
         "value" : false
       },
@@ -3646,6 +3652,12 @@
       },
       "suspended_profile_tombstone_enabled" : {
         "value" : true
+      },
+      "tab_bar_visibility_alpha_on_scroll_end_enabled" : {
+        "value" : false
+      },
+      "tab_bar_visibility_alpha_on_scroll_end_transparency" : {
+        "value" : 0.5
       },
       "tabbed_explore_enabled" : {
         "value" : false
@@ -3876,7 +3888,7 @@
         "value" : false
       },
       "tweet_with_visibility_results_prefer_gql_media_interstitial_enabled" : {
-        "value" : false
+        "value" : true
       },
       "tweet_with_visibility_results_prefer_gql_soft_interventions_enabled" : {
         "value" : true
@@ -3927,6 +3939,9 @@
         "value" : true
       },
       "unified_cards_app_install_render_all_docked_media_16_9" : {
+        "value" : false
+      },
+      "unified_cards_chrome_vanity_url_label_enabled" : {
         "value" : false
       },
       "unified_cards_collection_ads_convert_to_image_website_card" : {
@@ -4518,7 +4533,7 @@
   "requires_restart" : [ ],
   "supports_accessibility" : [ ],
   "versions" : {
-    "feature_switches" : "8407114c4fb81a0923ddcf91d8f317124aad8092",
-    "experiments" : "8407114c4fb81a0923ddcf91d8f317124aad8092"
+    "feature_switches" : "73c14c93f2de1a1d36b8caa61af7083c3aa04952",
+    "experiments" : "73c14c93f2de1a1d36b8caa61af7083c3aa04952"
   }
 }
