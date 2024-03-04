@@ -1,6 +1,6 @@
 {
   "default" : {
-    "feature_set_token" : "d752a80779968562a72d4fd68a92fe18e8d7f52b",
+    "feature_set_token" : "c0ba55612e854d3b5733a6c1437ae88d73b893d0",
     "config" : {
       "2fa_temporary_password_enabled" : {
         "value" : false
@@ -868,6 +868,12 @@
       },
       "communities_sticky_broadcast_option_in_composer" : {
         "value" : true
+      },
+      "communities_topic_display" : {
+        "value" : false
+      },
+      "communities_topics_enabled" : {
+        "value" : false
       },
       "composer_canvas_editor_enabled" : {
         "value" : false
@@ -3441,10 +3447,10 @@
         "value" : 30.0
       },
       "spaces_video_consumption_enabled" : {
-        "value" : false
+        "value" : true
       },
       "spaces_video_creation_enabled" : {
-        "value" : false
+        "value" : true
       },
       "ssp_ads_dsp_client_context_enabled" : {
         "value" : false
@@ -3481,6 +3487,9 @@
       },
       "subscriptions_annual_subscription_signup_enabled" : {
         "value" : true
+      },
+      "subscriptions_block_ad_on_completion_upsell_enabled" : {
+        "value" : false
       },
       "subscriptions_block_ad_upsell_enabled" : {
         "value" : false
@@ -3585,7 +3594,7 @@
         "value" : true
       },
       "subscriptions_hide_ad_upsell_enabled" : {
-        "value" : false
+        "value" : true
       },
       "subscriptions_in_app_manage_subscriptions" : {
         "value" : true
@@ -3605,6 +3614,15 @@
       "subscriptions_inapp_grok_version" : {
         "value" : "1"
       },
+      "subscriptions_inapp_grok_video_upsell" : {
+        "value" : ""
+      },
+      "subscriptions_inapp_grok_video_upsell_dim" : {
+        "value" : ""
+      },
+      "subscriptions_inapp_grok_video_upsell_light" : {
+        "value" : ""
+      },
       "subscriptions_infrastructure_migration_enabled" : {
         "value" : false
       },
@@ -3613,6 +3631,9 @@
       },
       "subscriptions_marketing_page_rearragement" : {
         "value" : "control"
+      },
+      "subscriptions_mute_ad_on_completion_upsell_enabled" : {
+        "value" : false
       },
       "subscriptions_mute_ad_upsell_enabled" : {
         "value" : false
@@ -3638,6 +3659,9 @@
       "subscriptions_product_feature_list_persistence_store_enabled" : {
         "value" : false
       },
+      "subscriptions_report_ad_on_completion_upsell_enabled" : {
+        "value" : false
+      },
       "subscriptions_report_ad_upsell_enabled" : {
         "value" : false
       },
@@ -3645,7 +3669,7 @@
         "value" : true
       },
       "subscriptions_unified_feature_and_tier_based_upsell_enabled" : {
-        "value" : false
+        "value" : true
       },
       "subscriptions_update_version" : {
         "value" : ""
@@ -4353,7 +4377,7 @@
   "requires_restart" : [ ],
   "supports_accessibility" : [ ],
   "versions" : {
-    "feature_switches" : "3b707526e181011e54e679188693306d02d9a3ba",
-    "experiments" : "3b707526e181011e54e679188693306d02d9a3ba"
+    "feature_switches" : "59154817747a5cb366c1c4a16f3f08c1bb638ebf",
+    "experiments" : "59154817747a5cb366c1c4a16f3f08c1bb638ebf"
   }
 }
