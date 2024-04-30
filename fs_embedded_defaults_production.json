@@ -1,6 +1,6 @@
 {
   "default" : {
-    "feature_set_token" : "f69402dd3af6c800975975088a4362b68429caaf",
+    "feature_set_token" : "f2d5795bcd5241eb3781b17c7b346f76a0ce5db5",
     "config" : {
       "2fa_temporary_password_enabled" : {
         "value" : false
@@ -106,6 +106,9 @@
       },
       "articles_consumption_enabled" : {
         "value" : true
+      },
+      "articles_preview_enabled" : {
+        "value" : false
       },
       "articles_rest_api_enabled" : {
         "value" : true
@@ -339,7 +342,7 @@
         "value" : true
       },
       "c9s_spotlight_creation_enabled" : {
-        "value" : false
+        "value" : true
       },
       "c9s_superc9s_indication_enabled" : {
         "value" : false
@@ -879,13 +882,13 @@
         "value" : true
       },
       "communities_enable_explore_tab" : {
-        "value" : false
+        "value" : true
       },
       "communities_enable_explore_topic_carousel" : {
-        "value" : false
+        "value" : true
       },
       "communities_home_top_timeline_enabled" : {
-        "value" : false
+        "value" : true
       },
       "communities_show_broadcast_option_in_composer" : {
         "value" : true
@@ -894,7 +897,7 @@
         "value" : true
       },
       "communities_topic_carousel_enabled" : {
-        "value" : false
+        "value" : true
       },
       "communities_topic_display" : {
         "value" : true
@@ -1505,7 +1508,10 @@
       "grok_native_conversation_history_enabled" : {
         "value" : false
       },
-      "grok_native_share_button" : {
+      "grok_native_nux_enabled" : {
+        "value" : true
+      },
+      "grok_native_share_xdotcom_links" : {
         "value" : false
       },
       "guest_broadcasting_by_default_enabled" : {
@@ -3353,6 +3359,9 @@
       "recent_search_reranking_enabled" : {
         "value" : false
       },
+      "recruiting_global_jobs_hub_enabled" : {
+        "value" : false
+      },
       "recruiting_global_jobs_search_enabled" : {
         "value" : false
       },
@@ -3530,6 +3539,9 @@
       "spaces_conference_enabled" : {
         "value" : false
       },
+      "spaces_conference_simulcast_enabled" : {
+        "value" : false
+      },
       "spaces_incognito_consumption_default" : {
         "value" : false
       },
@@ -3543,7 +3555,7 @@
         "value" : true
       },
       "spaces_speakers_null_user_id_logs_enabled" : {
-        "value" : false
+        "value" : true
       },
       "spaces_user_fetcher_precaching_limit" : {
         "value" : 30.0
@@ -3561,6 +3573,9 @@
         "value" : false
       },
       "spaces_video_follow_speaker_remote_publisher_enabled" : {
+        "value" : false
+      },
+      "spaces_video_simulcast_enabled" : {
         "value" : false
       },
       "spaces_video_speakers_enabled" : {
@@ -3582,7 +3597,7 @@
         "value" : false
       },
       "ssp_ads_google_native_ad_urt_type" : {
-        "value" : false
+        "value" : true
       },
       "ssp_ads_native_ad_unit_id" : {
         "value" : ""
@@ -3675,6 +3690,9 @@
         "value" : true
       },
       "subscriptions_feature_can_hide_checkmark" : {
+        "value" : false
+      },
+      "subscriptions_feature_extend_profile" : {
         "value" : true
       },
       "subscriptions_feature_hide_subscriptions" : {
@@ -3969,7 +3987,7 @@
         "value" : [ "add_to_bookmarks", "add_to_moment", "embed", "follow", "hide_community_tweet", "like", "lists_add_remove", "mute_conversation", "pin_to_profile", "quote_tweet", "react", "remove_from_community", "reply", "retweet", "send_via_dm", "share_tweet_via", "view_hidden_replies", "view_tweet_activity", "vote_on_poll", "highlight" ]
       },
       "tweet_limited_actions_config_community_tweet_non_member" : {
-        "value" : [ "embed", "like", "pin_to_profile", "react", "reply", "reply_down_vote", "retweet", "share_tweet_via", "vote_on_poll", "highlight" ]
+        "value" : [ "embed", "pin_to_profile", "react", "reply", "reply_down_vote", "retweet", "vote_on_poll", "highlight" ]
       },
       "tweet_limited_actions_config_community_tweet_non_member_closed_community" : {
         "value" : [ "embed", "pin_to_profile", "react", "reply", "reply_down_vote", "retweet", "vote_on_poll", "highlight" ]
@@ -4492,9 +4510,5 @@
   },
   "embedded_experiments" : [ ],
   "requires_restart" : [ ],
-  "supports_accessibility" : [ ],
-  "versions" : {
-    "feature_switches" : "daef56f8434c8ac2d931009930dc5239a9659454",
-    "experiments" : "daef56f8434c8ac2d931009930dc5239a9659454"
-  }
+  "supports_accessibility" : [ ]
 }
