@@ -1,6 +1,6 @@
 {
   "default" : {
-    "feature_set_token" : "03139790052d5b4e63c5c961f47913e8590057f8",
+    "feature_set_token" : "9497e58c5568916f19b9cadf0e92d27246967524",
     "config" : {
       "2fa_temporary_password_enabled" : {
         "value" : false
@@ -141,13 +141,13 @@
         "value" : true
       },
       "av_chat_groups_audio_maximum_size" : {
-        "value" : 8.0
+        "value" : 0.0
       },
       "av_chat_groups_enabled" : {
         "value" : false
       },
       "av_chat_groups_video_maximum_size" : {
-        "value" : 4.0
+        "value" : 0.0
       },
       "av_chat_ios_pushkit_token_registration_enabled" : {
         "value" : true
@@ -214,6 +214,9 @@
       },
       "bookmarks_long_press_enabled" : {
         "value" : true
+      },
+      "bookmarks_search_enabled" : {
+        "value" : false
       },
       "bookmarks_tweet_detail_count_enabled" : {
         "value" : true
@@ -1382,9 +1385,6 @@
       "enterprise_app_bug_report_destination" : {
         "value" : 0.0
       },
-      "explore_dynamic_chrome_enabled" : {
-        "value" : true
-      },
       "explore_relaunch_auto_refresh_timeout_minutes" : {
         "value" : 5.0
       },
@@ -1392,7 +1392,7 @@
         "value" : false
       },
       "explore_relaunch_broadcast_live_notifications_and_chat_history_toasts_enabled" : {
-        "value" : false
+        "value" : true
       },
       "explore_relaunch_broadcast_support_enabled" : {
         "value" : true
@@ -1811,6 +1811,9 @@
       "identity_verification_landing_page_enabled" : {
         "value" : true
       },
+      "identity_verification_native_flow_enabled" : {
+        "value" : false
+      },
       "identity_verification_passkey_settings_enabled" : {
         "value" : false
       },
@@ -2093,9 +2096,6 @@
       "ios_graduated_access_user_prompt_enabled" : {
         "value" : true
       },
-      "ios_graphql_users_lookup_enabled" : {
-        "value" : true
-      },
       "ios_htl_tweet_voiceover_refactor_assert_on_string_compare_enabled" : {
         "value" : false
       },
@@ -2303,6 +2303,12 @@
       "ios_profile_social_proof_refactor_enabled" : {
         "value" : false
       },
+      "ios_recording_max_length_duration" : {
+        "value" : 0.0
+      },
+      "ios_recording_max_length_framerate_enabled" : {
+        "value" : false
+      },
       "ios_refining_estimated_row_heights_enabled" : {
         "value" : true
       },
@@ -2382,7 +2388,7 @@
         "value" : false
       },
       "ios_tav_is_video_quality_selection_enabled" : {
-        "value" : false
+        "value" : true
       },
       "ios_tav_lhlslib_buffer_resilience" : {
         "value" : 1.9
@@ -2930,7 +2936,7 @@
       "media_tab_enabled" : {
         "value" : 0.0
       },
-      "media_tab_fullscreen_button_on_timeline_video_cards" : {
+      "media_tab_immersive_enabled" : {
         "value" : false
       },
       "media_tab_long_form_video_show_replies" : {
@@ -2938,6 +2944,9 @@
       },
       "media_tab_long_player_minimum_aspect_ratio" : {
         "value" : 1.7
+      },
+      "media_tab_long_player_minimum_duration_seconds" : {
+        "value" : 600.0
       },
       "media_tab_long_player_swipe_auto_docks" : {
         "value" : false
@@ -2952,7 +2961,7 @@
         "value" : false
       },
       "media_upload_video_quality_selector_enabled" : {
-        "value" : false
+        "value" : true
       },
       "misinfo_label_redesign_enabled" : {
         "value" : true
@@ -3171,7 +3180,7 @@
         "value" : true
       },
       "onboarding_signed_out_fallback_disabled" : {
-        "value" : false
+        "value" : true
       },
       "onboarding_signed_out_fallback_flow_timeout" : {
         "value" : 15.0
@@ -3357,9 +3366,18 @@
         "value" : false
       },
       "recruiting_global_jobs_hub_enabled" : {
-        "value" : false
+        "value" : true
       },
       "recruiting_global_jobs_search_enabled" : {
+        "value" : true
+      },
+      "recruiting_job_card_native_job_detail_enabled" : {
+        "value" : true
+      },
+      "recruiting_job_details_share_enabled" : {
+        "value" : true
+      },
+      "recruiting_job_spotlight_native_job_detail_enabled" : {
         "value" : true
       },
       "recruiting_jobs_hub_recommendations_tab_enabled" : {
@@ -3453,7 +3471,7 @@
         "value" : true
       },
       "search_features_advanced_search_m2_verified_filter_enabled" : {
-        "value" : false
+        "value" : true
       },
       "search_features_empty_search_results_search_settings_link" : {
         "value" : "https:\/\/mobile.twitter.com\/settings\/search"
@@ -3564,7 +3582,7 @@
         "value" : 30.0
       },
       "spaces_video_admins_enabled" : {
-        "value" : false
+        "value" : true
       },
       "spaces_video_consumption_enabled" : {
         "value" : true
@@ -3593,6 +3611,12 @@
       "ssp_ads_google_dsp_client_context_enabled" : {
         "value" : false
       },
+      "ssp_ads_google_dsp_spotlight_ad_unit_id" : {
+        "value" : "\/22849053685\/twitter_native_ad"
+      },
+      "ssp_ads_google_dsp_spotlight_with_headline" : {
+        "value" : false
+      },
       "ssp_ads_google_gsig_count" : {
         "value" : 1.0
       },
@@ -3604,6 +3628,12 @@
       },
       "ssp_ads_rtb_image_ad_item_enabled" : {
         "value" : false
+      },
+      "ssp_ads_spotlight" : {
+        "value" : false
+      },
+      "ssp_ads_spotlight_ad_fetch_timeout_milliseconds" : {
+        "value" : 3000.0
       },
       "standardized_nudges_toxicity" : {
         "value" : true
@@ -4380,12 +4410,15 @@
         "value" : false
       },
       "xprofile_consumption_enabled" : {
-        "value" : false
+        "value" : true
       },
       "xprofile_editing_enabled" : {
-        "value" : false
+        "value" : true
       },
       "xprofile_private_likes" : {
+        "value" : false
+      },
+      "xprofile_v2_enabled" : {
         "value" : false
       },
       "zazu_native_report_flow_dms_enabled" : {
@@ -4413,7 +4446,7 @@
   "requires_restart" : [ ],
   "supports_accessibility" : [ ],
   "versions" : {
-    "feature_switches" : "a710e820339dfee7a91f0ca9f021140f5db85dc3",
-    "experiments" : "a710e820339dfee7a91f0ca9f021140f5db85dc3"
+    "feature_switches" : "a27e3322ac7f4cc04237433221089862388a8bc7",
+    "experiments" : "a27e3322ac7f4cc04237433221089862388a8bc7"
   }
 }
