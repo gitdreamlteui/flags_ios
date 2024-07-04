@@ -1,6 +1,6 @@
 {
   "default" : {
-    "feature_set_token" : "e907a7dca0cabaf5fb257dccde20406eed64018d",
+    "feature_set_token" : "c0bb581f6576dc8cf67b540c0ab79bbdb005ed49",
     "config" : {
       "2fa_temporary_password_enabled" : {
         "value" : false
@@ -1680,7 +1680,7 @@
         "value" : true
       },
       "home_timeline_spheres_detail_page_search_enabled" : {
-        "value" : false
+        "value" : true
       },
       "home_timeline_spheres_detail_page_sharing_enabled" : {
         "value" : true
@@ -1815,7 +1815,7 @@
         "value" : true
       },
       "identity_verification_native_flow_enabled" : {
-        "value" : true
+        "value" : false
       },
       "identity_verification_passkey_settings_enabled" : {
         "value" : false
@@ -1855,6 +1855,9 @@
       },
       "image_pipeline_uiv_scale_limit" : {
         "value" : 2.0
+      },
+      "immersive_video_auto_advance_duration_threshold" : {
+        "value" : 5.0
       },
       "immersive_video_big_centered_play_button" : {
         "value" : false
@@ -2475,6 +2478,9 @@
         "value" : true
       },
       "ios_tav_swift_avfplayertechnology_enabled" : {
+        "value" : false
+      },
+      "ios_tav_video_download_live_activity_enabled" : {
         "value" : false
       },
       "ios_tav_video_prefer_mp4_over_hls_threshold" : {
@@ -3639,7 +3645,7 @@
         "value" : false
       },
       "ssp_ads_spotlight_ad_fetch_timeout_milliseconds" : {
-        "value" : 3000.0
+        "value" : 6000.0
       },
       "standardized_nudges_toxicity" : {
         "value" : true
@@ -4458,7 +4464,7 @@
   "requires_restart" : [ ],
   "supports_accessibility" : [ ],
   "versions" : {
-    "feature_switches" : "39d226577243fdf4f77eb9e11a97034ce249d629",
-    "experiments" : "39d226577243fdf4f77eb9e11a97034ce249d629"
+    "feature_switches" : "65b7c152fc34d49cad496a9f817b4ce093ac5df9",
+    "experiments" : "65b7c152fc34d49cad496a9f817b4ce093ac5df9"
   }
 }
