@@ -1,6 +1,6 @@
 {
   "default" : {
-    "feature_set_token" : "5fd8ed1f990a89a72c6e033f4b0abf0b42b41554",
+    "feature_set_token" : "44d26ffe77d46b827e2a92009f7d3ff306d0b2b5",
     "config" : {
       "2fa_temporary_password_enabled" : {
         "value" : false
@@ -113,12 +113,6 @@
       "articles_consumption_enabled" : {
         "value" : true
       },
-      "articles_native_navigation_enabled" : {
-        "value" : true
-      },
-      "articles_native_navigation_timeout_seconds" : {
-        "value" : 10.0
-      },
       "articles_preview_enabled" : {
         "value" : true
       },
@@ -201,10 +195,13 @@
         "value" : false
       },
       "birdwatch_note_request_mobile_enabled" : {
-        "value" : false
+        "value" : true
       },
       "birdwatch_pivot_enabled" : {
         "value" : false
+      },
+      "birdwatch_pivot_hit_test_fix_enabled" : {
+        "value" : true
       },
       "blocked_user_ids_query_enabled" : {
         "value" : true
@@ -917,6 +914,9 @@
       "communities_enable_explore_topic_carousel" : {
         "value" : true
       },
+      "communities_enable_top_posts_search" : {
+        "value" : true
+      },
       "communities_home_top_timeline_enabled" : {
         "value" : true
       },
@@ -929,9 +929,6 @@
       "communities_sticky_broadcast_option_in_composer" : {
         "value" : true
       },
-      "communities_top_search_tab_enabled" : {
-        "value" : true
-      },
       "communities_topic_carousel_enabled" : {
         "value" : true
       },
@@ -940,6 +937,9 @@
       },
       "communities_topics_enabled" : {
         "value" : true
+      },
+      "community_notes_ios_preloaded_webview_enabled" : {
+        "value" : false
       },
       "composer_canvas_editor_enabled" : {
         "value" : false
@@ -1136,6 +1136,9 @@
       "creator_subscriptions_polling_after_purchase_enabled" : {
         "value" : true
       },
+      "creator_subscriptions_polling_generic_enabled" : {
+        "value" : false
+      },
       "creator_subscriptions_subscribe_button_immersive_enabled" : {
         "value" : true
       },
@@ -1274,6 +1277,9 @@
       "dm_message_body_font_size_increase_enabled" : {
         "value" : true
       },
+      "dm_message_edit_enabled" : {
+        "value" : false
+      },
       "dm_open_up_access_allow_message_requests_for_new_account" : {
         "value" : false
       },
@@ -1290,7 +1296,7 @@
         "value" : [ "\ud83d\ude20:angry", "\ud83d\ude37:mask" ]
       },
       "dm_reactions_config_long_press_enabled" : {
-        "value" : false
+        "value" : true
       },
       "dm_reactions_config_multiline_enabled" : {
         "value" : true
@@ -1530,16 +1536,19 @@
         "value" : true
       },
       "grok_ios_enhanced_markdown_enabled" : {
+        "value" : true
+      },
+      "grok_ios_image_source_enabled" : {
         "value" : false
       },
       "grok_ios_photo_uploads_enabled" : {
         "value" : false
       },
       "grok_ios_speech_enabled" : {
-        "value" : false
+        "value" : true
       },
       "grok_ios_v2_enabled" : {
-        "value" : false
+        "value" : true
       },
       "grok_share_without_author_enabled" : {
         "value" : true
@@ -2405,6 +2414,9 @@
       "ios_status_gestures_swipe_right_to_reply_enabled" : {
         "value" : false
       },
+      "ios_status_gestures_timeline_settings_enabled" : {
+        "value" : false
+      },
       "ios_swift_notification_handler_enabled" : {
         "value" : "enabled"
       },
@@ -2982,7 +2994,7 @@
         "value" : false
       },
       "media_cast_startup_enabled" : {
-        "value" : true
+        "value" : false
       },
       "media_download_user_preference_enabled" : {
         "value" : true
@@ -3954,7 +3966,7 @@
         "value" : false
       },
       "subscriptions_upsells_premium_home_nav" : {
-        "value" : ""
+        "value" : "premium_upsell_upgrade"
       },
       "subscriptions_verification_info_enabled" : {
         "value" : true
@@ -4572,7 +4584,7 @@
   "requires_restart" : [ ],
   "supports_accessibility" : [ ],
   "versions" : {
-    "feature_switches" : "c85f229975bb55d56b41664ca872c999f2c38fa6",
-    "experiments" : "c85f229975bb55d56b41664ca872c999f2c38fa6"
+    "feature_switches" : "f34c6dcd45f20747f971d56bce9f7c9e9ab9976d",
+    "experiments" : "f34c6dcd45f20747f971d56bce9f7c9e9ab9976d"
   }
 }
