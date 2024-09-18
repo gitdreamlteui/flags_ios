@@ -1,6 +1,6 @@
 {
   "default" : {
-    "feature_set_token" : "a54751f6babe6c673595bbf8b2dd23cf8053c9c1",
+    "feature_set_token" : "baa7a61ffa26c734f24916f1c7738d418a277be4",
     "config" : {
       "2fa_temporary_password_enabled" : {
         "value" : false
@@ -1308,7 +1308,7 @@
         "value" : 20.0
       },
       "dm_quick_share_improvements_optimistically_update_ui" : {
-        "value" : true
+        "value" : false
       },
       "dm_reactions_config_active_reactions" : {
         "value" : [ "\ud83d\ude02:funny", "\ud83d\ude32:surprised", "\ud83d\ude22:sad", "\u2764\ufe0f:like", "\ud83d\udd25:excited", "\ud83d\udc4d:agree", "\ud83d\udc4e:disagree", "\ud83d\ude2d:crying", "\ud83d\ude0d:heart-eyes", "\ud83e\udd14:thinking", "\ud83d\udcaf:100", "\ud83c\udf89:party", "\ud83d\ude4f:pray" ]
@@ -2759,6 +2759,9 @@
       "ios_video_transcode_720p_h264_bitrate" : {
         "value" : 4500000.0
       },
+      "ios_video_transcode_should_remove_disabled_tracks" : {
+        "value" : true
+      },
       "ios_video_transcode_tav_audio_bitrate" : {
         "value" : 256000.0
       },
@@ -3864,19 +3867,19 @@
         "value" : true
       },
       "subscriptions_cancel_flow_downgrade_enabled" : {
-        "value" : false
+        "value" : true
       },
       "subscriptions_cancel_flow_enabled" : {
         "value" : true
       },
       "subscriptions_cancel_flow_final_enabled" : {
-        "value" : false
+        "value" : true
       },
       "subscriptions_cancel_flow_highlights_enabled" : {
-        "value" : false
+        "value" : true
       },
       "subscriptions_cancel_flow_support_enabled" : {
-        "value" : false
+        "value" : true
       },
       "subscriptions_claims_fetch_enabled" : {
         "value" : true
@@ -4693,5 +4696,9 @@
   },
   "embedded_experiments" : [ ],
   "requires_restart" : [ ],
-  "supports_accessibility" : [ ]
+  "supports_accessibility" : [ ],
+  "versions" : {
+    "feature_switches" : "a2b73ae01d6f40ae6f2892a90f2db60e114b4d7f",
+    "experiments" : "a2b73ae01d6f40ae6f2892a90f2db60e114b4d7f"
+  }
 }
