@@ -1,6 +1,6 @@
 {
   "default" : {
-    "feature_set_token" : "60f0dc43aea9d4dca277412d95609507f3cf7863",
+    "feature_set_token" : "81059bc06dbec585eb55b4463157d56950071cca",
     "config" : {
       "2fa_temporary_password_enabled" : {
         "value" : false
@@ -1098,7 +1098,7 @@
         "value" : true
       },
       "conversational_replies_ios_minimal_detail_enabled_v2" : {
-        "value" : true
+        "value" : false
       },
       "conversational_replies_ios_pinned_replies_consumption_enabled" : {
         "value" : false
@@ -1191,7 +1191,7 @@
         "value" : true
       },
       "custom_post_swipe_gestures_threshold" : {
-        "value" : 100.0
+        "value" : 72.0
       },
       "cwc_profile_interstitial_enabled" : {
         "value" : true
@@ -1652,6 +1652,9 @@
       "grok_ios_photo_uploads_enabled" : {
         "value" : false
       },
+      "grok_ios_post_details_analyze_button_enabled" : {
+        "value" : "true"
+      },
       "grok_ios_pushnav_enabled" : {
         "value" : true
       },
@@ -1669,6 +1672,12 @@
       },
       "grok_ios_webresults_enabled" : {
         "value" : true
+      },
+      "grok_ios_xai_grok_analyze_icon_enabled" : {
+        "value" : "false"
+      },
+      "grok_ios_xai_grok_tab_icon_enabled" : {
+        "value" : "false"
       },
       "grok_user_search_typeahead_enabled" : {
         "value" : true
@@ -3611,9 +3620,6 @@
       "payments_enabled" : {
         "value" : false
       },
-      "payments_interest_enabled" : {
-        "value" : false
-      },
       "payments_pin_enabled" : {
         "value" : false
       },
@@ -4322,7 +4328,13 @@
       "subscriptions_one_dollar_check_product_before_presenting_enabled" : {
         "value" : false
       },
+      "subscriptions_premium_app_icons_christmas" : {
+        "value" : false
+      },
       "subscriptions_premium_app_icons_halloween_enabled" : {
+        "value" : false
+      },
+      "subscriptions_premium_app_icons_japanese_new_year_enabled" : {
         "value" : false
       },
       "subscriptions_premium_app_icons_thanksgiving_enabled" : {
@@ -5004,7 +5016,7 @@
   "requires_restart" : [ ],
   "supports_accessibility" : [ ],
   "versions" : {
-    "feature_switches" : "342df3c146baa6d14ff245fecce309ebcfb3c122",
-    "experiments" : "342df3c146baa6d14ff245fecce309ebcfb3c122"
+    "feature_switches" : "f9903bdcd5c3ece53c42da3e331067d5e922221f",
+    "experiments" : "f9903bdcd5c3ece53c42da3e331067d5e922221f"
   }
 }
