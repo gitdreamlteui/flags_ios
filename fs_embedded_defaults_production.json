@@ -1,6 +1,6 @@
 {
   "default" : {
-    "feature_set_token" : "81059bc06dbec585eb55b4463157d56950071cca",
+    "feature_set_token" : "0373e881618999873d7854e520be99a026609c4f",
     "config" : {
       "2fa_temporary_password_enabled" : {
         "value" : false
@@ -1590,7 +1590,13 @@
         "value" : true
       },
       "grok_ios_author_view_analyze_button_enabled" : {
-        "value" : "false"
+        "value" : true
+      },
+      "grok_ios_author_view_analyze_button_fetch_trends_enabled" : {
+        "value" : true
+      },
+      "grok_ios_background_tasks_enabled" : {
+        "value" : true
       },
       "grok_ios_better_scrolling_enabled" : {
         "value" : true
@@ -1617,7 +1623,7 @@
         "value" : true
       },
       "grok_ios_home_sheet_enabled" : {
-        "value" : false
+        "value" : true
       },
       "grok_ios_image_generation_with_aurora_enabled" : {
         "value" : true
@@ -1647,7 +1653,7 @@
         "value" : true
       },
       "grok_ios_paste_image_enabled" : {
-        "value" : false
+        "value" : true
       },
       "grok_ios_photo_uploads_enabled" : {
         "value" : false
@@ -1655,11 +1661,23 @@
       "grok_ios_post_details_analyze_button_enabled" : {
         "value" : "true"
       },
+      "grok_ios_profile_summary_enabled" : {
+        "value" : false
+      },
+      "grok_ios_profile_summary_min_followers" : {
+        "value" : 10000.0
+      },
+      "grok_ios_profile_summary_min_posts" : {
+        "value" : 50.0
+      },
       "grok_ios_pushnav_enabled" : {
         "value" : true
       },
       "grok_ios_show_nux_enabled" : {
         "value" : false
+      },
+      "grok_ios_show_nux_legal_text_on_home_sheet_enabled" : {
+        "value" : true
       },
       "grok_ios_speech_enabled" : {
         "value" : true
@@ -1678,6 +1696,12 @@
       },
       "grok_ios_xai_grok_tab_icon_enabled" : {
         "value" : "false"
+      },
+      "grok_prompt_images_in_sharecard_enabled" : {
+        "value" : true
+      },
+      "grok_settings_age_restriction_enabled" : {
+        "value" : false
       },
       "grok_user_search_typeahead_enabled" : {
         "value" : true
@@ -2171,8 +2195,20 @@
       "ios_client_performance_launch_zippy_json_enabled" : {
         "value" : "enabled"
       },
+      "ios_client_performance_manually_compare_trait_collection_enabled" : {
+        "value" : false
+      },
       "ios_client_performance_pre_clipped_avatar_images_enabled" : {
         "value" : true
+      },
+      "ios_client_performance_push_notification_rate_limit_events_per_interval" : {
+        "value" : 0.0
+      },
+      "ios_client_performance_push_notification_rate_limit_interval" : {
+        "value" : 0.0
+      },
+      "ios_client_performance_push_notification_rate_limit_max_events" : {
+        "value" : 0.0
       },
       "ios_client_performance_recurring_task_service_active_account_flush_promoted_events_trigger_on_registration_enabled" : {
         "value" : true
@@ -2243,6 +2279,9 @@
       "ios_client_performance_zippy_json_enabled" : {
         "value" : true
       },
+      "ios_composer_grok_button_enabled" : {
+        "value" : false
+      },
       "ios_composer_live_menu_sheet_enabled" : {
         "value" : false
       },
@@ -2256,7 +2295,7 @@
         "value" : "control"
       },
       "ios_consideration_share_self_profile_enabled" : {
-        "value" : false
+        "value" : true
       },
       "ios_consideration_share_to_linked_in_enabled" : {
         "value" : true
@@ -2583,7 +2622,7 @@
         "value" : "0"
       },
       "ios_share_sheet_dms_carousel_enabled" : {
-        "value" : false
+        "value" : true
       },
       "ios_share_to_dm_convo_multi_select_sheet_enabled" : {
         "value" : true
@@ -2661,7 +2700,7 @@
         "value" : 0.0
       },
       "ios_tav_engaged_max_forward_buffering" : {
-        "value" : 0.0
+        "value" : 1800.0
       },
       "ios_tav_error_retry_simple_backoff_minimum_value" : {
         "value" : 1.0
@@ -2686,12 +2725,6 @@
       },
       "ios_tav_hls_url_additional_query_parameter_value" : {
         "value" : "1"
-      },
-      "ios_tav_initial_quality_bitrate_selection_disabled" : {
-        "value" : true
-      },
-      "ios_tav_initial_quality_bitrate_selection_non_decreasing_enabled" : {
-        "value" : false
       },
       "ios_tav_is_delta_hls_manifest_enabled" : {
         "value" : true
@@ -2733,7 +2766,7 @@
         "value" : 1.2
       },
       "ios_tav_min_engagement_duration" : {
-        "value" : 0.0
+        "value" : 6.0
       },
       "ios_tav_non_decreasing_preferred_peak_bitrate_cap_enabled" : {
         "value" : true
@@ -2771,10 +2804,16 @@
       "ios_tav_swift_avfplayertechnology_enabled" : {
         "value" : false
       },
-      "ios_tav_video_prefer_mp4_over_hls_threshold" : {
+      "ios_tav_video_feature_upsell_duration_sec" : {
         "value" : 0.0
       },
-      "ios_tav_video_prefetch_min_bitrate" : {
+      "ios_tav_video_feature_upsell_fatigue_timeout_sec" : {
+        "value" : 1209600.0
+      },
+      "ios_tav_video_feature_upsell_ignore_timeout_sec" : {
+        "value" : 1800.0
+      },
+      "ios_tav_video_prefer_mp4_over_hls_threshold" : {
         "value" : 0.0
       },
       "ios_tav_video_prefetch_videos_kept_in_cache" : {
@@ -2897,6 +2936,9 @@
       "ios_tweet_promote_button_location_enabled" : {
         "value" : false
       },
+      "ios_ui_bar_button_item_v2" : {
+        "value" : true
+      },
       "ios_ui_chirp_ui_account_spoofing_font_style_enabled" : {
         "value" : true
       },
@@ -2962,9 +3004,6 @@
       },
       "ios_video_badges_broadcast_cards_redesign_enabled" : {
         "value" : false
-      },
-      "ios_video_network_threshold_for_initial_variant_selection" : {
-        "value" : 1.0
       },
       "ios_video_transcode_720p_h264_bitrate" : {
         "value" : 4500000.0
@@ -3338,9 +3377,6 @@
       "media_tab_show_landscape_videos_in_media_tab_enabled" : {
         "value" : true
       },
-      "media_tab_social_context_enabled" : {
-        "value" : false
-      },
       "media_upload_all_performance_logging_enabled" : {
         "value" : false
       },
@@ -3617,16 +3653,19 @@
       "payments_account_details_enabled" : {
         "value" : false
       },
+      "payments_cards_as_payment_method_enabled" : {
+        "value" : false
+      },
       "payments_enabled" : {
         "value" : false
       },
       "payments_pin_enabled" : {
         "value" : false
       },
-      "payments_pin_keychain_enabled" : {
+      "payments_pin_login_enabled" : {
         "value" : false
       },
-      "payments_pin_login_enabled" : {
+      "payments_settings_documents_enabled" : {
         "value" : false
       },
       "paywall_tweets_video_creation_enabled" : {
@@ -3781,6 +3820,9 @@
       },
       "protected_account_retweet_education_enabled" : {
         "value" : true
+      },
+      "reaper_app_launch_initialization_enabled" : {
+        "value" : false
       },
       "recent_search_limit_count" : {
         "value" : 5.0
@@ -4329,15 +4371,9 @@
         "value" : false
       },
       "subscriptions_premium_app_icons_christmas" : {
-        "value" : false
-      },
-      "subscriptions_premium_app_icons_halloween_enabled" : {
-        "value" : false
+        "value" : true
       },
       "subscriptions_premium_app_icons_japanese_new_year_enabled" : {
-        "value" : false
-      },
-      "subscriptions_premium_app_icons_thanksgiving_enabled" : {
         "value" : false
       },
       "subscriptions_premium_hub_enabled" : {
@@ -5016,7 +5052,7 @@
   "requires_restart" : [ ],
   "supports_accessibility" : [ ],
   "versions" : {
-    "feature_switches" : "f9903bdcd5c3ece53c42da3e331067d5e922221f",
-    "experiments" : "f9903bdcd5c3ece53c42da3e331067d5e922221f"
+    "feature_switches" : "54f4c1706dd02ce57d0e732b70cafb8b023ce3ed",
+    "experiments" : "54f4c1706dd02ce57d0e732b70cafb8b023ce3ed"
   }
 }
