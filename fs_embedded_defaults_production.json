@@ -1,6 +1,6 @@
 {
   "default" : {
-    "feature_set_token" : "ac34c32df372160b11b4dc77fdfd8a0fce96a9ab",
+    "feature_set_token" : "3f023943e017d1d8ac3823d4ddc577f6fe54b86e",
     "config" : {
       "2fa_temporary_password_enabled" : {
         "value" : false
@@ -2627,12 +2627,6 @@
       "ios_profile_social_proof_click_disabled" : {
         "value" : false
       },
-      "ios_recording_max_length_duration" : {
-        "value" : 86400.0
-      },
-      "ios_recording_max_length_framerate_enabled" : {
-        "value" : false
-      },
       "ios_refining_estimated_row_heights_enabled" : {
         "value" : true
       },
@@ -3323,20 +3317,11 @@
       "media_async_upload_amplify_duration_threshold" : {
         "value" : 600.0
       },
-      "media_async_upload_longer_video_desktop_prompt_duration" : {
-        "value" : 600.0
-      },
-      "media_async_upload_longer_video_max_video_duration" : {
-        "value" : 14460.0
-      },
       "media_async_upload_longer_video_upsale_trim_enabled" : {
         "value" : true
       },
       "media_async_upload_max_gif_size" : {
         "value" : 15.0
-      },
-      "media_async_upload_max_video_duration" : {
-        "value" : 14460.0
       },
       "media_async_upload_number_of_http_requests_to_pack" : {
         "value" : 1000.0
@@ -5103,7 +5088,7 @@
   "requires_restart" : [ ],
   "supports_accessibility" : [ ],
   "versions" : {
-    "feature_switches" : "7bb39461e210789b6bde6903095a9114e4705d1f",
-    "experiments" : "7bb39461e210789b6bde6903095a9114e4705d1f"
+    "feature_switches" : "2fc799fe44159e69f9da33c03230afdf65a11331",
+    "experiments" : "2fc799fe44159e69f9da33c03230afdf65a11331"
   }
 }
