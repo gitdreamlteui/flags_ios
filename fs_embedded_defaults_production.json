@@ -1,6 +1,6 @@
 {
   "default" : {
-    "feature_set_token" : "c03bd20d019ec89004f1f9ae7bda609079089865",
+    "feature_set_token" : "62234da3709f68aa6309eae311d224c2eab62926",
     "config" : {
       "2fa_temporary_password_enabled" : {
         "value" : false
@@ -1635,7 +1635,7 @@
         "value" : true
       },
       "grok_ios_customization_settings_enabled" : {
-        "value" : false
+        "value" : true
       },
       "grok_ios_disable_fun_mode_enabled" : {
         "value" : true
@@ -1685,6 +1685,9 @@
       "grok_ios_load_preferred_prompts_from_home_for_images_enabled" : {
         "value" : false
       },
+      "grok_ios_markdown_chirp_font_enabled" : {
+        "value" : false
+      },
       "grok_ios_mention_hydration_enabled" : {
         "value" : false
       },
@@ -1693,6 +1696,9 @@
       },
       "grok_ios_new_history_enabled" : {
         "value" : true
+      },
+      "grok_ios_personalities_enabled" : {
+        "value" : false
       },
       "grok_ios_personalized_home_enabled" : {
         "value" : false
@@ -1715,8 +1721,41 @@
       "grok_ios_profile_summary_min_posts" : {
         "value" : 15.0
       },
+      "grok_ios_r_header_string" : {
+        "value" : "Think Harder"
+      },
+      "grok_ios_r_string" : {
+        "value" : "Think"
+      },
+      "grok_ios_r_timer_0" : {
+        "value" : "Thoughts"
+      },
+      "grok_ios_r_timer_1" : {
+        "value" : "Thought for"
+      },
+      "grok_ios_r_timer_2" : {
+        "value" : "Thinking for"
+      },
+      "grok_ios_reasoning_trace_latex_enabled" : {
+        "value" : true
+      },
       "grok_ios_response_links_enabled" : {
         "value" : false
+      },
+      "grok_ios_s_header_string" : {
+        "value" : "DeepSearch"
+      },
+      "grok_ios_s_string" : {
+        "value" : "DeepSearch"
+      },
+      "grok_ios_s_timer_0" : {
+        "value" : "DeepSearch"
+      },
+      "grok_ios_s_timer_1" : {
+        "value" : "DeepSearched for"
+      },
+      "grok_ios_s_timer_2" : {
+        "value" : "DeepSearch for"
       },
       "grok_ios_show_nux_enabled" : {
         "value" : false
@@ -5154,7 +5193,7 @@
   "requires_restart" : [ ],
   "supports_accessibility" : [ ],
   "versions" : {
-    "feature_switches" : "dd3d5e90e2d78058ff2ebbdda95eb9e1d448a1bb",
-    "experiments" : "dd3d5e90e2d78058ff2ebbdda95eb9e1d448a1bb"
+    "feature_switches" : "148c3a1315f23d33c50a55ed212540c68b2d50e9",
+    "experiments" : "148c3a1315f23d33c50a55ed212540c68b2d50e9"
   }
 }
