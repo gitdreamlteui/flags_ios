@@ -1,6 +1,6 @@
 {
   "default" : {
-    "feature_set_token" : "d806a973ba63894044e5233f3fca8b91cf98542b",
+    "feature_set_token" : "c03bd20d019ec89004f1f9ae7bda609079089865",
     "config" : {
       "2fa_temporary_password_enabled" : {
         "value" : false
@@ -2832,7 +2832,7 @@
         "value" : 0.0
       },
       "ios_tav_player_view_layout_v2_enabled" : {
-        "value" : false
+        "value" : true
       },
       "ios_tav_playing_forward_buffer" : {
         "value" : 8.0
@@ -2845,9 +2845,6 @@
       },
       "ios_tav_starts_on_first_eligible_variant_enabled" : {
         "value" : true
-      },
-      "ios_tav_swift_avfplayertechnology_enabled" : {
-        "value" : false
       },
       "ios_tav_video_feature_upsell_duration_sec" : {
         "value" : 0.0
@@ -2958,6 +2955,12 @@
         "value" : 604800.0
       },
       "ios_tweet_promote_button_conversation_prompt_type" : {
+        "value" : ""
+      },
+      "ios_tweet_promote_button_conversation_tooltip_prompt_interval_seconds" : {
+        "value" : 604800.0
+      },
+      "ios_tweet_promote_button_conversation_tooltip_prompt_type" : {
         "value" : ""
       },
       "ios_tweet_promote_button_enabled" : {
@@ -3509,6 +3512,9 @@
       "newscamera_tweet_background_consumption_enabled" : {
         "value" : false
       },
+      "newscamera_tweet_capture_1080p_enabled" : {
+        "value" : false
+      },
       "ntab_graphql_api_enabled" : {
         "value" : false
       },
@@ -3817,6 +3823,21 @@
       },
       "premium_business_ios_nav_promo_prem_plus_only_enabled" : {
         "value" : false
+      },
+      "premium_webview_paywall_subscriptions_journey_paywall_variant_gate_fs_name_1" : {
+        "value" : ""
+      },
+      "premium_webview_paywall_subscriptions_journey_paywall_variant_gate_fs_name_2" : {
+        "value" : ""
+      },
+      "premium_webview_paywall_subscriptions_journey_paywall_variant_gate_fs_name_3" : {
+        "value" : ""
+      },
+      "premium_webview_paywall_subscriptions_journey_paywall_variant_gate_fs_name_4" : {
+        "value" : ""
+      },
+      "premium_webview_paywall_subscriptions_journey_paywall_variant_gate_fs_name_5" : {
+        "value" : ""
       },
       "preroll_cta_docked_media_enabled" : {
         "value" : false
@@ -4437,7 +4458,7 @@
         "value" : false
       },
       "subscriptions_premium_app_icons_christmas" : {
-        "value" : true
+        "value" : false
       },
       "subscriptions_premium_app_icons_japanese_new_year_enabled" : {
         "value" : false
@@ -5133,7 +5154,7 @@
   "requires_restart" : [ ],
   "supports_accessibility" : [ ],
   "versions" : {
-    "feature_switches" : "b2b538555aebe9e228cb631a71df0a9e3b00fa79",
-    "experiments" : "b2b538555aebe9e228cb631a71df0a9e3b00fa79"
+    "feature_switches" : "dd3d5e90e2d78058ff2ebbdda95eb9e1d448a1bb",
+    "experiments" : "dd3d5e90e2d78058ff2ebbdda95eb9e1d448a1bb"
   }
 }
