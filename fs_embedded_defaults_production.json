@@ -1,6 +1,6 @@
 {
   "default" : {
-    "feature_set_token" : "c19940fd8237143e34b05b94eaa7d17060bc5b2a",
+    "feature_set_token" : "1b1919181db535783ab4cac44c3932b29411776d",
     "config" : {
       "2fa_temporary_password_enabled" : {
         "value" : false
@@ -1542,7 +1542,7 @@
         "value" : 5.0
       },
       "explore_relaunch_live_chat_repost_messages_enabled" : {
-        "value" : false
+        "value" : true
       },
       "explore_relaunch_live_scheduled_alert_enabled" : {
         "value" : true
@@ -2568,7 +2568,7 @@
         "value" : true
       },
       "ios_dm_dash_inbox_pills_enabled" : {
-        "value" : false
+        "value" : true
       },
       "ios_dm_dash_invite_user_alert_enabled" : {
         "value" : false
@@ -2593,6 +2593,9 @@
       },
       "ios_dm_dash_share_sheet_enabled" : {
         "value" : false
+      },
+      "ios_dm_dash_share_sheet_variant" : {
+        "value" : 1.0
       },
       "ios_dm_dash_top_cursor_enabled" : {
         "value" : false
@@ -3282,7 +3285,7 @@
         "value" : false
       },
       "ios_ui_inline_actions_tip_ddg_variant" : {
-        "value" : 1.0
+        "value" : 0.0
       },
       "ios_ui_inline_actions_tip_enabled" : {
         "value" : true
@@ -4134,6 +4137,9 @@
         "value" : false
       },
       "payments_tasks_carousel_enabled" : {
+        "value" : false
+      },
+      "payments_tracing_zipkin_enabled" : {
         "value" : false
       },
       "payments_wires_enabled" : {
@@ -5676,7 +5682,7 @@
   "requires_restart" : [ ],
   "supports_accessibility" : [ ],
   "versions" : {
-    "feature_switches" : "b0cfbf79767c68536781bbf08d198bbfc8324ee6",
-    "experiments" : "b0cfbf79767c68536781bbf08d198bbfc8324ee6"
+    "feature_switches" : "9d134802926706e59500908afb558c543ec11457",
+    "experiments" : "9d134802926706e59500908afb558c543ec11457"
   }
 }
