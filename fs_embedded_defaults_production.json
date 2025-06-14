@@ -1,6 +1,6 @@
 {
   "default" : {
-    "feature_set_token" : "1b1919181db535783ab4cac44c3932b29411776d",
+    "feature_set_token" : "9da965afb6a72392e634fb80028656497ba8213f",
     "config" : {
       "2fa_temporary_password_enabled" : {
         "value" : false
@@ -1916,6 +1916,9 @@
       "grok_translations_bio_translation_is_enabled" : {
         "value" : false
       },
+      "grok_translations_immersive_auto_translate_is_enabled" : {
+        "value" : false
+      },
       "grok_translations_poll_translation_is_enabled" : {
         "value" : false
       },
@@ -2297,9 +2300,6 @@
       "immersive_ios_animations_improved_animations_enabled" : {
         "value" : false
       },
-      "immersive_ios_animations_refactor_enabled" : {
-        "value" : true
-      },
       "immersive_player_long_press_to_2x_speed_default_speed" : {
         "value" : 2.0
       },
@@ -2579,6 +2579,9 @@
       "ios_dm_dash_lite_onboarding_enabled" : {
         "value" : false
       },
+      "ios_dm_dash_pin_to_bottom_v2_enabled" : {
+        "value" : false
+      },
       "ios_dm_dash_remove_vanishing_mode_enabled" : {
         "value" : true
       },
@@ -2676,6 +2679,9 @@
         "value" : [ "Inspect Tw", "We\u2019ll show", "Stop recei", "Share " ]
       },
       "ios_notification_redesign_enabled" : {
+        "value" : false
+      },
+      "ios_notification_redesign_timestamp_enabled" : {
         "value" : false
       },
       "ios_notifications_auth_bg_task_enabled" : {
@@ -2934,9 +2940,6 @@
         "value" : true
       },
       "ios_show_inline_actions_timeline_settings_enabled" : {
-        "value" : true
-      },
-      "ios_smart_features_similar_posts_link_in_post_view" : {
         "value" : true
       },
       "ios_spaces_device_follow_multi_select_enabled" : {
@@ -3256,6 +3259,9 @@
       },
       "ios_tweet_promote_button_sent_tweet_toast_enabled" : {
         "value" : true
+      },
+      "ios_tweet_promote_button_simple_promote_flow_v2_enabled" : {
+        "value" : false
       },
       "ios_tweet_promote_button_timeline_enabled" : {
         "value" : false
@@ -3752,14 +3758,8 @@
       "media_tab_immersive_v2_enabled" : {
         "value" : false
       },
-      "media_tab_immersive_v2_landscape_replies_enabled" : {
-        "value" : true
-      },
       "media_tab_immersive_v2_not_interested_button_enabled" : {
         "value" : true
-      },
-      "media_tab_immersive_v2_status_line_count" : {
-        "value" : 3.0
       },
       "media_tab_immersive_v2_swipe_nux_enabled" : {
         "value" : true
@@ -3822,7 +3822,7 @@
         "value" : false
       },
       "media_upload_quality_reduced_tooltip_enabled" : {
-        "value" : false
+        "value" : true
       },
       "media_upload_quality_tooltip_enabled" : {
         "value" : false
@@ -3834,7 +3834,7 @@
         "value" : true
       },
       "media_upload_video_quality_selector_for_all_qualities_enabled" : {
-        "value" : false
+        "value" : true
       },
       "misinfo_label_redesign_enabled" : {
         "value" : true
@@ -3909,7 +3909,7 @@
         "value" : false
       },
       "newscamera_tweet_background_render_media_only_enabled" : {
-        "value" : false
+        "value" : true
       },
       "ntab_graphql_chrome_page_enabled" : {
         "value" : false
@@ -4137,6 +4137,9 @@
         "value" : false
       },
       "payments_tasks_carousel_enabled" : {
+        "value" : false
+      },
+      "payments_tracing_errors_full_text_enabled" : {
         "value" : false
       },
       "payments_tracing_zipkin_enabled" : {
@@ -5153,6 +5156,9 @@
       "tweet_context_basketball_enabled" : {
         "value" : true
       },
+      "tweet_context_is_enabled" : {
+        "value" : false
+      },
       "tweet_convo_ads_spine_click_logging_enabled" : {
         "value" : true
       },
@@ -5624,6 +5630,9 @@
       "xchat_max_group_size" : {
         "value" : 200.0
       },
+      "xchat_out_of_order_fanout_validation_enabled" : {
+        "value" : false
+      },
       "xchat_send_graphql_logs" : {
         "value" : false
       },
@@ -5682,7 +5691,7 @@
   "requires_restart" : [ ],
   "supports_accessibility" : [ ],
   "versions" : {
-    "feature_switches" : "9d134802926706e59500908afb558c543ec11457",
-    "experiments" : "9d134802926706e59500908afb558c543ec11457"
+    "feature_switches" : "343eb20dddc02f59aeef03ab13813c4a5ee0c849",
+    "experiments" : "343eb20dddc02f59aeef03ab13813c4a5ee0c849"
   }
 }
